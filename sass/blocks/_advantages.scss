@@ -1,0 +1,36 @@
+.advantages {
+    min-height: 475px;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &_block {
+        width: 270px;
+        font-family: 'Nunito Sans';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+            color: #0D0D0D;
+            margin-bottom: 20px;
+        }
+        a {
+            font-family: 'MuseoModerno';
+            color: $main-color;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+}
